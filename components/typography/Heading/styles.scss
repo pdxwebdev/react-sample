@@ -1,0 +1,25 @@
+.default {
+  display: block;
+  font-family: map-get(map-get($fonts, families), sans-serif);
+
+  // kinds
+  &.title {
+    color: map-get($colors, black);
+    font-size: map-get(map-get($fonts, sizes), large);
+    font-weight: map-get(map-get($fonts, weights), light);
+    letter-spacing: 1px; // TODO move to vars.json
+    margin-bottom: 20px; // TODO move to vars.json
+  }
+  &.subtitle {
+    color: map-get($colors, gray);
+    font-size: map-get(map-get($fonts, sizes), medium);
+    font-weight: map-get(map-get($fonts, weights), light);
+    margin-bottom: 20px; // TODO move to vars.json
+  }
+  &.section {
+    color: map-get($colors, black);
+    font-size: map-get(map-get($fonts, sizes), medium);
+    font-weight: map-get(map-get($fonts, weights), bold);
+    margin-bottom: 20px; // TODO move to vars.json
+  }
+}

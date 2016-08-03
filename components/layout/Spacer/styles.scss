@@ -1,0 +1,27 @@
+.default {
+  // kinds
+  &.vertical {
+    display: block;
+    &.small {
+      height: map-get($sizes, small);
+    }
+    &.medium {
+      height: map-get($sizes, medium);
+    }
+    &.large {
+      height: map-get($sizes, large);
+    }
+  }
+  &.horizontal {
+    display: inline-block;
+    &.small {
+      width: map-get($sizes, small);
+    }
+    &.medium {
+      width: map-get($sizes, medium);
+    }
+    &.large {
+      width: map-get($sizes, large);
+    }
+  }
+}

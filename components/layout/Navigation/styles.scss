@@ -1,0 +1,8 @@
+.default {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 226px;
+  border-right: 1px solid map-get($colors, black);
+  background: map-get($colors, gray);
+  padding: 20px 0;
+}

@@ -1,0 +1,38 @@
+{
+  "colors": {
+    "black": "#000000",
+    "white": "#ffffff",
+    "gray": "#C3C5C8"
+  },
+  "fonts": {
+    "families": {
+      "fantasy": "(copperplate, fantasy)",
+      "monospace": "(courier-new, monospace)",
+      "sans-serif": "(arial, sans-serif)",
+      "script": "(brush-script-mt, script)",
+      "serif": "(times-new-roman, serif)"
+    },
+    "sizes": {
+      "xsmall": "12px",
+      "small": "14px",
+      "medium": "16px",
+      "large": "24px"
+    },
+    "weights": {
+      "light": "400",
+      "bold": "600"
+    }
+  },
+  "transitions": {
+    "fade": {
+      "slow": "opacity 1s",
+      "medium": "opacity .5s",
+      "fast": "opacity .2s"
+    }
+  },
+  "sizes": {
+    "small": "10px",
+    "medium": "20px",
+    "large": "40px"
+  }
+}

@@ -1,0 +1,22 @@
+.default {
+  display: inline-block;
+  text-align: center;
+  margin: 10px 10px;
+
+  name {
+    display: block;
+    text-transform: uppercase;
+    color: map-get($colors, white);
+    font-family: map-get(map-get($fonts, families), sans-serif);
+    font-size: map-get(map-get($fonts, sizes), xsmall);
+    letter-spacing: 1px; // TODO move to vars.json
+    padding-bottom: 5px;
+  }
+
+  underline {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: map-get($colors, white);
+  }
+}

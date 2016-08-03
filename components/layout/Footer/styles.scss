@@ -1,0 +1,15 @@
+.default {
+  height: 59px;
+  border-top: 1px solid map-get($colors, gray);
+  line-height: 59px;
+  text-align: center;
+  background: map-get($colors, white);
+  font-family: map-get(map-get($fonts, families), sans-serif);
+  font-size: map-get(map-get($fonts, sizes), small);
+  color: map-get($colors, gray);
+
+  a {
+    color: map-get($colors, black);
+    text-decoration: none;
+  }
+}

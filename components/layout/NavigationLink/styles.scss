@@ -1,0 +1,35 @@
+.default {
+  cursor: pointer;
+
+  a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-family: map-get(map-get($fonts, families), sans-serif);
+    font-size: map-get(map-get($fonts, sizes), xsmall);
+    font-weight: map-get(map-get($fonts, weights), light);
+    letter-spacing: 1px; // TODO move to vars.json
+    color: map-get($colors, black);
+    transition: map-get(map-get($transitions, fade), fast);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 0 0 20px;
+
+    &.active {
+      color: map-get($colors, white);
+      background-color: map-get($colors, black);
+      box-shadow: -1px 0 1px rgba(0, 0, 0, 0.1) inset;
+      border-left: 10px solid map-get($colors, white);
+      font-weight: map-get(map-get($fonts, weights), bold);
+      font-size: map-get(map-get($fonts, sizes), small);
+      letter-spacing: 2px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &:hover a, &.hover a {
+    opacity: 0.50;
+  }
+}

@@ -1,0 +1,15 @@
+.default {
+  display: block;
+  font-family: map-get(map-get($fonts, families), sans-serif);
+  font-size: map-get(map-get($fonts, sizes), small);
+  line-height: 17px;
+  margin-bottom: 10px;
+
+  // kinds
+  &.primary {
+    color: , meridian), black);
+  }
+  &.secondary {
+    color: , meridian), dark-gray);
+  }
+}

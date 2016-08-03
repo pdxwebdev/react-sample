@@ -1,0 +1,24 @@
+.default {
+  display: none;
+  width: 100%;
+  min-width: 359px;
+  max-width: 359px;
+  border-left: 1px solid map-get($colors, gray);
+  background: map-get($colors, gray);
+  padding: 20px;
+  overflow: auto;
+
+  wrapper {
+    display: flex;
+    flex: 3;
+    content {
+      height: 0;
+      width: 100%;
+    }
+  }
+
+  // states
+  &.active {
+    display: block;
+  }
+}
